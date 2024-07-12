@@ -1,0 +1,20 @@
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #e2edff;
+}
+
+.jumbotron h1 {
+  font-family: "Noto Nastaliq Urdu", Amiri;
+}
+
+.navbar-brand {
+  font-family: Amiri;
+}
+
+#project {
+  background-color: #0099ff;
+}
+
+section {
+  padding-top: 5rem;
+}

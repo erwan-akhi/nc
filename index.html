@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tools Input Case New Centerix</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Nastaliq+Urdu:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body id="home">
+    <header>
+      <nav class="navbar justify-content-center justify-item-center">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img
+              src="assets/img/logo.png"
+              alt="Bootstrap"
+              width="90"
+              height="72"
+            />
+          </a>
+        </div>
+      </nav>
+    </header>
+    <!-- Simpan Data-->
+    <section id="daftar" class="inputdata mb-3">
+      <div class="container">
+        <div class="row mb-3 mt-4 justify-content-center">
+          <div class="col-md-8">
+            <h3 class="fs-5">Tools Input Case New Newterix</h3>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <div
+              class="alert alert-success alert-dismissible fade show my-alert d-none"
+              role="alert"
+            >
+              <strong>Ajiib!</strong> Cek di
+              <a
+                href="https://docs.google.com/spreadsheets/d/1_v_yINUa5JDuy1aet7Djojaff78zvY4vaa89K6rGCBo/edit?usp=sharing"
+                target="_blank"
+                >link </a
+              >ini datanya!
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="alert"
+                aria-label="Close"
+              ></button>
+            </div>
+            <form name="input-case">
+              <div class="row mb-1">
+                <label for="exampleDataList" class="col-4 col-form-label"
+                  >Category</label
+                >
+                <div class="col-8">
+                  <input
+                    class="form-control"
+                    list="datalistOptions"
+                    id="exampleDataList"
+                    placeholder="Select Category"
+                    name="category"
+                  />
+                  <datalist id="datalistOptions">
+                    <option value="Assignment"></option>
+                    <option value="Call Processing"></option>
+                    <option value="Campaign"></option>
+                    <option value="Double Handling"></option>
+                    <option value="Login"></option>
+                    <option value="Not Bound"></option>
+                    <option value="Overview"></option>
+                    <option value="Pop-up"></option>
+                    <option value="PTP Bocor"></option>
+                    <option value="Recording"></option>
+                    <option value="Saving"></option>
+                    <option value="Schema"></option>
+                    <option value="Service"></option>
+                    <option value="Telephony"></option>
+                  </datalist>
+                </div>
+              </div>
+              <div class="row mb-1">
+                <label for="agentcode" class="col-4 col-form-label"
+                  >AgentCode</label
+                >
+                <div class="col-4">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="agentcode"
+                    aria-describedby="name"
+                    name="agentcode"
+                  />
+                </div>
+                <div class="col-4">
+                  <input
+                    class="form-control"
+                    list="datalistOptions2"
+                    id="exampleDataList2"
+                    placeholder="Select Campaign"
+                    name="campaign"
+                  />
+                  <datalist id="datalistOptions2">
+                    <option value="Tele1-Jawa"></option>
+                    <option value="Tele1-NonJawa"></option>
+                    <option value="Tele2-Jawa"></option>
+                    <option value="Tele2-NonJawa"></option>
+                    <option value="Tele-WO"></option>
+                    <option value="Tele-Precollection"></option>
+                    <option value="SkipTrace"></option>
+                    <option value="Inbound Collection"></option>
+                  </datalist>
+                </div>
+              </div>
+              <div class="row mb-1">
+                <label for="datestart" class="col-4 col-form-label"
+                  >StartTime</label
+                >
+                <div class="col-4">
+                  <input
+                    type="date"
+                    class="form-control"
+                    id="datestart"
+                    aria-describedby="date"
+                    name="datestart"
+                  />
+                </div>
+                <div class="col-4">
+                  <input
+                    type="time"
+                    class="form-control"
+                    id="timestart"
+                    aria-describedby="timestart"
+                    name="timestart"
+                  />
+                </div>
+              </div>
+              <div class="row mb-1">
+                <label for="dateend" class="col-4 col-form-label"
+                  >EndTime</label
+                >
+                <div class="col-4">
+                  <input
+                    type="date"
+                    class="form-control"
+                    id="dateend"
+                    aria-describedby="dateend"
+                    name="dateend"
+                  />
+                </div>
+                <div class="col-4">
+                  <input
+                    type="time"
+                    class="form-control"
+                    id="timeend"
+                    aria-describedby="timeend"
+                    name="timeend"
+                  />
+                </div>
+              </div>
+              <div class="row mb-1">
+                <label for="exampleDataList3" class="col-4 col-form-label"
+                  >Status</label
+                >
+                <div class="col-4">
+                  <input
+                    class="form-control"
+                    list="datalistOptions3"
+                    id="exampleDataList3"
+                    placeholder="Status"
+                    name="status"
+                  />
+                  <datalist id="datalistOptions3">
+                    <option value="Done"></option>
+                    <option value="On Check"></option>
+                    <option value="Waiting"></option>
+                  </datalist>
+                </div>
+                <div class="col-4">
+                  <input
+                    class="form-control"
+                    list="datalistOptions4"
+                    id="exampleDataList4"
+                    placeholder="NC"
+                    name="nctype"
+                  />
+                  <datalist id="datalistOptions4">
+                    <option value="NC1"></option>
+                    <option value="NC2"></option>
+                  </datalist>
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label"
+                  >Detail description:</label
+                >
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="3"
+                  name="desc"
+                  minlength="10"
+                ></textarea>
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea2" class="form-label"
+                  >Solution:</label
+                >
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea2"
+                  rows="1"
+                  name="solution"
+                  minlength="10"
+                ></textarea>
+              </div>
+              <div class="mb-3">
+                <label for="exampleDataList5" class="form-label"
+                  >PC Spec:</label
+                >
+                <input
+                  class="form-control"
+                  list="datalistOptions5"
+                  id="exampleDataList5"
+                  placeholder="Select PC spec"
+                  name="pcspec"
+                />
+                <datalist id="datalistOptions5">
+                  <option value="i3-4GB-HDD"></option>
+                  <option value="i3-4GB-SSD"></option>
+                  <option value="i3-8GB-HDD"></option>
+                  <option value="i3-8GB-SSD"></option>
+                  <option value="i3-16GB-HDD"></option>
+                  <option value="i3-16GB-SSD"></option>
+                  <option value="i5-4GB-HDD"></option>
+                  <option value="i5-4GB-SSD"></option>
+                  <option value="i5-8GB-HDD"></option>
+                  <option value="i5-8GB-SSD"></option>
+                  <option value="i5-16GB-HDD"></option>
+                  <option value="i5-16GB-SSD"></option>
+                </datalist>
+              </div>
+              <button type="submit" class="btn btn-primary btn-save">
+                Save
+              </button>
+              <button
+                class="btn btn-primary btn-loading d-none"
+                type="button"
+                disabled
+              >
+                <span
+                  class="spinner-border spinner-border-sm"
+                  aria-hidden="true"
+                ></span>
+                <span role="status">Wait...</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Daftar End -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- script input data di googlesheet -->
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbzOLqMVawDiAZXGK7ow_runY3iCZ8XF_XLNc1WedKuNlYhg4jzg2he15Eva2UwoY6s0/exec";
+      const form = document.forms["input-case"];
+      const btnDaftar = document.querySelector(".btn-save");
+      const btnLoading = document.querySelector(".btn-loading");
+      const myAllert = document.querySelector(".my-alert");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        // ketika tombol diklik
+        // tampilkan loading hilangkan button daftar
+        btnLoading.classList.toggle("d-none");
+        btnDaftar.classList.toggle("d-none");
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            // ketika tombol diklik
+            // tampilkan button daftar hilangkan loading
+            btnLoading.classList.toggle("d-none");
+            btnDaftar.classList.toggle("d-none");
+            // tampilkan alert berhasil
+            myAllert.classList.toggle("d-none");
+            // reset value form
+            form.reset();
+            console.log("Success!", response);
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
